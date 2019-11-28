@@ -1,5 +1,5 @@
 # Jose Daniel Paternina Portfolio Page
-## Built using VulkanoJS
+Built using VulkanoJS
 
 ### API
 
