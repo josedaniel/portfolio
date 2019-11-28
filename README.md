@@ -1,6 +1,5 @@
-# Vulkano
-
-## Stack
+# Jose Daniel Paternina Portfolio Page
+## Built using VulkanoJS
 
 ### API
 
@@ -11,18 +10,14 @@
 - [Nodemon](http://nodemon.io/) (Reload automatically for dev mode)
 - [PM2](http://pm2.keymetrics.io/) (Deployment)
 
-## Install
+
 
 ### System
 
 - Unix
-- Node.js v6+
+- Node.js v8+
 
-### Packages
 
-```bash
-$ npm install install
-```
 
 ## Workflow
 
@@ -38,69 +33,4 @@ $ npm install install
 | `npm run webpack`                         | Start webpack                             |
 
 
-## Structure
 
-- `app/`
-- `client/`
-- `cms/`
-- `core/`
-- `public/` - HTTP Public folder
-- `Procfile` - Heroku entry point
-- `README.md`
-- `app.js` - Server entry point
-- `deploy.sh` - Script to run after deployment to set manuality your config
-- `nodemon.json` - Nodemon entry point
-
-
-## Your App Folder
-
-### Config
-You can create any config enviroments as needed. By default, vulcano runs with NODE_ENV=development, in development mode. In productions servers, you should change NODE_ENV to _production_.
-
-#### connections.js
-
-#### local.js
-
-#### policies.js
-
-#### routes.js
-
-#### server.js
-
-### Controllers
-
-### Helpers
-
-#### Filters
-
-### Models
-
-### Responses
-
-#### vsr.js
-
-### Services
-
-#### ActiveRecord.js
-
-#### AppController.js
-
-#### Filter.js
-
-#### Jwt.js (Json Web Token)
-
-#### Paginate.js
-
-#### Upload.js
-
-#### VSError.js
-
-### Views.js
-
-#### _shared
-
-##### Errors
-
-##### Partials
-
-##### Templates
